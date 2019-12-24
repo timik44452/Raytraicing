@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\User\source\repos\Raytraicing\Raytraicing\</FILEPATH>
+      <FILENAME>Transform.cpp</FILENAME>
+      <LINE>30</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>Тип перечисления "Space" не входит в область. Старайтесь использовать "enum class" вместо "enum" (Enum.3).</DESCRIPTION>
+    <FUNCTION>Transform::Move</FUNCTION>
+    <DECORATED>?Move@Transform@@QAEXUVector3@@W4Space@@@Z</DECORATED>
+    <FUNCLINE>30</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

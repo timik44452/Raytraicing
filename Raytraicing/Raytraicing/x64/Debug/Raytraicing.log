@@ -1,0 +1,4 @@
+﻿  Raytraicing.cpp
+C:\Users\МифтяховТ\Desktop\Raytraicing\Raytraicing\Raytraicing.cpp(138,52): warning C4244:  аргумент: преобразование "LONG" в "float", возможна потеря данных
+C:\Users\МифтяховТ\Desktop\Raytraicing\Raytraicing\Raytraicing.cpp(138,43): warning C4244:  аргумент: преобразование "LONG" в "float", возможна потеря данных
+  Raytraicing.vcxproj -> C:\Users\МифтяховТ\Desktop\Raytraicing\x64\Debug\Raytraicing.exe
