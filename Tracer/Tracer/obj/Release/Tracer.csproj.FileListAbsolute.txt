@@ -1,0 +1,10 @@
+C:\Users\МифтяховТ\source\repos\Tracer\Tracer\bin\Release\Tracer.exe.config
+C:\Users\МифтяховТ\source\repos\Tracer\Tracer\bin\Release\Tracer.exe
+C:\Users\МифтяховТ\source\repos\Tracer\Tracer\bin\Release\Tracer.pdb
+C:\Users\МифтяховТ\source\repos\Tracer\Tracer\obj\Release\Tracer.Properties.Resources.resources
+C:\Users\МифтяховТ\source\repos\Tracer\Tracer\obj\Release\Tracer.csproj.GenerateResource.cache
+C:\Users\МифтяховТ\source\repos\Tracer\Tracer\obj\Release\Tracer.csproj.CoreCompileInputs.cache
+C:\Users\МифтяховТ\source\repos\Tracer\Tracer\obj\Release\Tracer.exe
+C:\Users\МифтяховТ\source\repos\Tracer\Tracer\obj\Release\Tracer.pdb
+C:\Users\МифтяховТ\source\repos\Tracer\Tracer\obj\Release\Tracer.Windows.Window.resources
+C:\Users\МифтяховТ\source\repos\Tracer\Tracer\obj\Release\Tracer.csprojAssemblyReference.cache
