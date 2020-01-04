@@ -1,10 +1,22 @@
 ﻿  Camera.cpp
   Frame.cpp
   GDI.cpp
+  Input.cpp
+  Matrix4x4.cpp
   Pixel.cpp
   Raytraicing.cpp
+C:\Users\User\source\repos\Raytraicing\Raytraicing\Raytraicing\Raytraicing.cpp(138,52): warning C4244: аргумент: преобразование "LONG" в "float", возможна потеря данных
+C:\Users\User\source\repos\Raytraicing\Raytraicing\Raytraicing\Raytraicing.cpp(138,43): warning C4244: аргумент: преобразование "LONG" в "float", возможна потеря данных
   Scene.cpp
   Transform.cpp
+C:\Users\User\source\repos\Raytraicing\Raytraicing\Raytraicing\Transform.cpp(4,40): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\User\source\repos\Raytraicing\Raytraicing\Raytraicing\Transform.cpp(45,15): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\User\source\repos\Raytraicing\Raytraicing\Raytraicing\Transform.cpp(46,15): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\User\source\repos\Raytraicing\Raytraicing\Raytraicing\Transform.cpp(57,15): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\User\source\repos\Raytraicing\Raytraicing\Raytraicing\Transform.cpp(58,15): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\User\source\repos\Raytraicing\Raytraicing\Raytraicing\Transform.cpp(69,15): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\User\source\repos\Raytraicing\Raytraicing\Raytraicing\Transform.cpp(70,15): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  Vector2.cpp
   Vector3.cpp
   Создание кода...
-  Raytraicing.vcxproj -> C:\Users\МифтяховТ\Desktop\Raytraicing\Debug\Raytraicing.exe
+  Raytraicing.vcxproj -> C:\Users\User\source\repos\Raytraicing\Raytraicing\Debug\Raytraicing.exe

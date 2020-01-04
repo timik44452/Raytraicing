@@ -3,6 +3,8 @@ using Math;
 using Renderer;
 using Tracer.Core;
 using Tracer.Windows;
+
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace Tracer
@@ -15,8 +17,8 @@ namespace Tracer
         private Camera camera;
         private World world;
         private Graphic graphic;
-
-        private int regionCount = 1;
+        private Graphics graphics;
+        private int regionCount = 4;
         private int regionIndex = 0;
         private int regionWidth;
         private int regionHeight;
@@ -28,7 +30,7 @@ namespace Tracer
             Width = 1280;
             Height = 720;
 
-            world = new World(100, 1, 100);
+            world = new World(100, 100, 100);
             
             //camera = new Camera(new Vector3(0, 0, -99), new Vector3(0, 0, 0));
             camera = new Camera(new Vector3(162, -37, -99), new Vector3(49, 32, 0));
@@ -38,7 +40,8 @@ namespace Tracer
 
         public override void OnLoad()
         {
-            graphic = new Graphic(Width, Height, CreateGraphics());
+            graphics = CreateGraphics();
+            graphic = new Graphic(Width, Height, graphics);
 
             regionWidth = Width / regionCount;
             regionHeight = Height / regionCount;
@@ -106,6 +109,8 @@ namespace Tracer
                 Drawing();
             }
 
+            graphic.Draw();
+
             Text = (1000F / (System.DateTime.Now - now).Milliseconds).ToString();
             now = System.DateTime.Now;
         }
@@ -141,8 +146,6 @@ namespace Tracer
                     regionIndex = 0;
                 }
             });
-
-            graphic.Draw();
         }
 
         private void Drawing()
@@ -178,8 +181,18 @@ namespace Tracer
             {
                 regionIndex = 0;
             }
+        }
 
-            graphic.Draw();
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // MainWindow
+            // 
+            this.ClientSize = new System.Drawing.Size(741, 457);
+            this.Name = "MainWindow";
+            this.ResumeLayout(false);
+
         }
     }
 }

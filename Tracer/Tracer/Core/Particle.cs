@@ -32,12 +32,12 @@ namespace Tracer.Core
             this.Y = Y;
             this.Z = Z;
 
-            Color = new Pixel(0, 1F, 0);
+            //Color = new Pixel(0, 1F, 0);
         }
 
         public void Simulate(Particle[,,] particles)
         {
-            if (X == 50)
+            if (Y == 99)
             {
                 temperature = 1;
             }

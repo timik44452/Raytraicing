@@ -1,11 +1,10 @@
 ﻿using Math;
-using System;
 using System.Drawing;
 using System.Windows.Forms;
 
 namespace Tracer.Windows
 {
-    public abstract class Window : Form
+    public class Window : Form
     {
         public bool IsMouseLeft { get => isMouseLeft; }
         public bool IsMouseRight { get => isMouseRight; }

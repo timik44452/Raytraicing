@@ -20,9 +20,24 @@ public:
 	void set_Y(float value);
 	void set_Z(float value);
 
-	friend Vector3 operator + (Vector3 a, Vector3 b);
+	Vector3 operator + (Vector3 b)
+	{
+		b.set_X(b.x + x);
+		b.set_Y(b.y + y);
+		b.set_Z(b.z + z);
 
-	friend Vector3 operator * (Vector3 a, float b);
+		return b;
+	}
+
+	friend Vector3 operator * (Vector3 a, float b)
+	{
+		a.set_X(a.x * b);
+		a.set_Y(a.y * b);
+		a.set_Z(a.z * b);
+
+		return a;
+	}
+
 private:
 	float x;
 	float y;

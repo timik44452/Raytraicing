@@ -8,3 +8,13 @@ C:\Users\МифтяховТ\source\repos\Tracer\Tracer\obj\Release\Tracer.exe
 C:\Users\МифтяховТ\source\repos\Tracer\Tracer\obj\Release\Tracer.pdb
 C:\Users\МифтяховТ\source\repos\Tracer\Tracer\obj\Release\Tracer.Windows.Window.resources
 C:\Users\МифтяховТ\source\repos\Tracer\Tracer\obj\Release\Tracer.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Raytraicing\Tracer\Tracer\bin\Release\Tracer.exe.config
+C:\Users\User\source\repos\Raytraicing\Tracer\Tracer\bin\Release\Tracer.exe
+C:\Users\User\source\repos\Raytraicing\Tracer\Tracer\bin\Release\Tracer.pdb
+C:\Users\User\source\repos\Raytraicing\Tracer\Tracer\obj\Release\Tracer.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Raytraicing\Tracer\Tracer\obj\Release\Tracer.Properties.Resources.resources
+C:\Users\User\source\repos\Raytraicing\Tracer\Tracer\obj\Release\Tracer.Windows.Window.resources
+C:\Users\User\source\repos\Raytraicing\Tracer\Tracer\obj\Release\Tracer.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Raytraicing\Tracer\Tracer\obj\Release\Tracer.exe
+C:\Users\User\source\repos\Raytraicing\Tracer\Tracer\obj\Release\Tracer.pdb
+C:\Users\User\source\repos\Raytraicing\Tracer\Tracer\obj\Release\Tracer.MainWindow.resources

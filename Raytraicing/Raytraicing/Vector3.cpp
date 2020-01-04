@@ -68,21 +68,3 @@ Vector3 Vector3::forward()
 {
 	return Vector3(0, 0, 1);
 }
-
-Vector3 operator+(Vector3 a, Vector3 b)
-{
-	a.set_X(a.x + b.x);
-	a.set_Y(a.y + b.y);
-	a.set_Z(a.z + b.z);
-
-	return a;
-}
-
-Vector3 operator*(Vector3 a, float b)
-{
-	a.set_X(a.x * b);
-	a.set_Y(a.y * b);
-	a.set_Z(a.z * b);
-
-	return a;
-}

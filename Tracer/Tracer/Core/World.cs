@@ -44,7 +44,7 @@ namespace Tracer.Core
         {
             if (RayBoxIntersection1(from, dx, dy, dz, out float tmin, out float tmax))
             {
-                for (float t = tmin; t < tmax; t += 1)
+                for (float t = tmin; t < tmax; t += (tmax - tmin) / Width)
                 {
                     int X = (int)(from.X + dx * t);
                     int Y = (int)(from.Y + dy * t);
@@ -55,7 +55,7 @@ namespace Tracer.Core
                         Z >= 0 && Z < Length)
                     {
 
-                        //if (Buffer[X, Y, Z].Color.A > 0)
+                        if (Buffer[X, Y, Z].Color.A > 0)
                         {
                             return Buffer[X, Y, Z].Color;
                         }

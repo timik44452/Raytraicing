@@ -1,4 +1,5 @@
-﻿using System.Drawing;
+﻿using System;
+using System.Drawing;
 using System.Runtime.InteropServices;
 using Renderer;
 
@@ -16,6 +17,8 @@ namespace GDI
             get => height;
         }
 
+        public IntPtr HDC { get; }
+
         private HandleRef href;
         private BITMAPINFO info;
         private FrameBuffer frame;
@@ -25,8 +28,9 @@ namespace GDI
 
         public Graphic(int Width, int Height, Graphics graphics)
         {
+            HDC = graphics.GetHdc();
             info = GDIHelper.CreateBitmapinfo(Width, Height);
-            href = new HandleRef(graphics, graphics.GetHdc());
+            href = new HandleRef(graphics,HDC);
             frame = new FrameBuffer(Width, Height);
 
             width = Width;

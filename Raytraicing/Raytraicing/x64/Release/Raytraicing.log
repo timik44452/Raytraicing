@@ -1,7 +1,19 @@
-﻿  Matrix4x4.cpp
+﻿  Camera.cpp
+  Matrix4x4.cpp
+  Raytraicing.cpp
+C:\Users\User\source\repos\Raytraicing\Raytraicing\Raytraicing\Raytraicing.cpp(138,52): warning C4244: аргумент: преобразование "LONG" в "float", возможна потеря данных
+C:\Users\User\source\repos\Raytraicing\Raytraicing\Raytraicing\Raytraicing.cpp(138,43): warning C4244: аргумент: преобразование "LONG" в "float", возможна потеря данных
+  Scene.cpp
+  Transform.cpp
+C:\Users\User\source\repos\Raytraicing\Raytraicing\Raytraicing\Transform.cpp(4,40): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\User\source\repos\Raytraicing\Raytraicing\Raytraicing\Transform.cpp(45,15): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\User\source\repos\Raytraicing\Raytraicing\Raytraicing\Transform.cpp(46,15): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\User\source\repos\Raytraicing\Raytraicing\Raytraicing\Transform.cpp(57,15): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\User\source\repos\Raytraicing\Raytraicing\Raytraicing\Transform.cpp(58,15): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\User\source\repos\Raytraicing\Raytraicing\Raytraicing\Transform.cpp(69,15): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\User\source\repos\Raytraicing\Raytraicing\Raytraicing\Transform.cpp(70,15): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  Vector3.cpp
   Создание кода
-  0 of 68 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+  Not all modules are compiled with -Gy (function comdat), build without incremental LTCG.
   Создание кода завершено
-  Raytraicing.vcxproj -> C:\Users\МифтяховТ\Desktop\Raytraicing\x64\Release\Raytraicing.exe
+  Raytraicing.vcxproj -> C:\Users\User\source\repos\Raytraicing\Raytraicing\x64\Release\Raytraicing.exe
